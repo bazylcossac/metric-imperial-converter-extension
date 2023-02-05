@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap" rel="stylesheet">
+    <title>Kalkulator</title>
+</head>
+
+<body>
+    <section id="top">
+        <h1>METRIC/IMPERIAL CONVERTER</h1>
+        <div id="input-section">
+            <div id="input-num">
+                <input type="number" id="number-input" min="0">
+            </div>
+            <div id="convert-btn">
+                <button id="convert">CONVERT</button>
+                <button id="darkmode">DARKMODE</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="bottom">
+
+        <div class="mathsection">
+            <h3>Lenght (Meter/Feet)</h3>
+            <p id="lenght"></p>
+        </div>
+
+        <div class="mathsection">
+            <h3>Volume (Liters/Gallons)</h3>
+            <p id="volume"></p>
+        </div>
+
+        <div class="mathsection">
+            <h3>Mass (Kilograms/Pounds)</h3>
+            <p id="mass"></p>
+        </div>
+
+        <div id="tip">
+            <ul>
+                <li>1 meter = 3.281 feet</li>
+                <li>1 liter = 0.264 gallon</li>
+                <li>1 kilogram = 2.204 pound</li>
+            </ul>
+        </div>
+
+    </section>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
